@@ -32,6 +32,11 @@ Do not forget to unselect visually selected text when correction(i.e.
 
 :warning: Reverso API is limited to 2000 char at a time.
 
+## Configuration
+ - `g:reverso#search_lang`: (`"fra"` or `"eng"`) Set the correction
+language
+ - `g:reverso#debug`: (Bool, 0 or 1) Enable Debug ?
+
 ## Thanks
 I'd like to acknowledge [@jessfraz] and her [openai.vim] for the inspiration.
 
